@@ -5,7 +5,7 @@
 # Mobile components
 
 ## 1. Action Sheet
-# screenshot
+
 ![screenshot](./ActionSheet/demo-actionsheet.gif)
 
 ### Usage
