@@ -1,17 +1,23 @@
-pull-to-fix-vue-components
+## VueJS Pull-to-fix components
+
+> Some sample components built using Vue.js for pull to fix
 
 # Mobile components
-1. Action Sheet
-Prototype
-`this.$actionSheet({
+
+## 1. Action Sheet
+
+### Usage
+``` html
+this.$actionSheet({
   text: 'Confirm log out?',
   label: true
 }, [{ text: 'Log out' }, { text: 'Cancel', }]).then(({button, selectedIndex, selectedGroupIndex}) => {
   if (selectedIndex === 0) {
-    console.log('Handle Log out')
+     console.log('Handle Log out')
   } else {
-    console.log('Cancel')
+     console.log('Cancel')
   }
 }).catch(_ => {
-  console.log('Click outside')
-})`
+   console.log('Click outside')
+})
+```
