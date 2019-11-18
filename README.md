@@ -10,6 +10,8 @@
 
 ### Usage
 ``` html
+import actionSheet from '@/components/base/ActionSheet'
+Vue.use(actionSheet)
 this.$actionSheet({
   text: 'Confirm log out?',
   label: true
