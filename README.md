@@ -1,10 +1,6 @@
-## VueJS Pull-to-fix components
+## VueJS Vue Botton Action Sheet component
 
-> Some sample components built using Vue.js for pull to fix
-
-# Mobile components
-
-## 1. Action Sheet
+>  Botton Action Sheet component built using Vue.js.
 
 ![screenshot](./ActionSheet/demo-actionsheet.gif)
 
