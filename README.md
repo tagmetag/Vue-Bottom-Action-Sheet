@@ -4,10 +4,15 @@
 
 ![screenshot](./ActionSheet/demo-actionsheet.gif)
 
-### Usage
+### Installation
 ``` html
 import actionSheet from '@/components/base/ActionSheet'
 Vue.use(actionSheet)
+
+```
+
+### Usage
+``` html
 this.$actionSheet({
   text: 'Confirm log out?',
   label: true
